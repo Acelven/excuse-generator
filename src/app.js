@@ -8,7 +8,7 @@ import "./assets/img/4geeks.ico";
 window.onload = () => {
   let randomNumber = Math.random() * 10;
   document.querySelector("#the-excuse").innerHTML = generateExcuse();
-  console.log("Hello Rigo from the console!");
+  //console.log("Hello Rigo from the console!");
 };
 
 let generateExcuse = () => {
